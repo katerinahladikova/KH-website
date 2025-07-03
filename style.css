@@ -101,7 +101,7 @@ nav {
     gap: 4px;
 }
 
-button, .button {
+button, .button, .project a {
     background-color: white;
     color: var(--text);
     border-radius: 20px;
@@ -368,15 +368,13 @@ h2 {
     text-align: center;
 }
 
-.project button {
+.project a {
     margin-inline: auto;
     margin-top: 30px;
-    background-color: var(--text);
-}
-
-.project button a {
     text-decoration: none;
-    color: white;
+    width: max-content;
+    background-color: var(--text);
+    color: var(--background);
 }
 
 .project h3 {
