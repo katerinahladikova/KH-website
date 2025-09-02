@@ -7,6 +7,11 @@ const mobileMenu = document.querySelector(".mobile-menu")
 let scrollDirection = "up"
 let prevPosition = 0
 
+if (window.baguetteBox) {
+    baguetteBox.run('.gallery')
+}
+
+
 for (let i = 0; i < button.length; i++) {
     button[i].addEventListener("click", function() {
         const copy = button[i].querySelector(".copy")
