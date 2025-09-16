@@ -291,6 +291,7 @@ h2 {
 .certificates {
     margin-bottom: 54px;
     display: grid;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
